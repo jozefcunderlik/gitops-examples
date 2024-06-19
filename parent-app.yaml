@@ -13,4 +13,5 @@ spec:
     targetRevision: HEAD
     path: apps
   syncPolicy:
-    automated: {}
+    syncOptions:
+      - CreateNamespace=true
